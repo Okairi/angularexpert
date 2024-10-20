@@ -1,0 +1,58 @@
+/* Alineación del menú en el lado izquierdo */
+.vertical-menu {
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.vertical-menu ul {
+  list-style-type: none;
+  /* Sin viñetas en la lista */
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.vertical-menu ul li {
+  margin-bottom: 10px;
+  margin: 8px 5px;
+}
+
+.vertical-menu ul li a {
+  display: block;
+  background-color: #fff;
+  /* Fondo por defecto */
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  /* Borde redondeado */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilo para el hover */
+.vertical-menu ul li a:hover {
+  background-color: #e0c1c1;
+  /* Color al pasar el ratón */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+/* Estilo para el enlace activo */
+.vertical-menu ul li a.active {
+  background-color: rgb(198, 178, 178);
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 6ww00;
+  color: white;
+
+}

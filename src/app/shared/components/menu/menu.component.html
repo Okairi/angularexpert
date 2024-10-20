@@ -1,0 +1,11 @@
+<nav class="vertical-menu">
+  <h2>Project Angular</h2>
+
+  <ul>
+    <li *ngFor="let option of optionsMenu">
+      <a [routerLink]="option.link" [routerLinkActive]="'active'">{{
+        option.title
+      }}</a>
+    </li>
+  </ul>
+</nav>
